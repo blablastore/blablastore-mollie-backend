@@ -1,0 +1,19 @@
+{
+  "name": "blablastore-mollie-backend",
+  "version": "1.0.0",
+  "description": "Backend Mollie/Klarna per Blabla Store",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@mollie/api-client": "^4.3.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
